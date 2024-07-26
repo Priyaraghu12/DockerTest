@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Expose port 8000 to the outside world
-EXPOSE 1000
+EXPOSE 1001
 
 # Run the command to start the web server
 CMD ["python", "-m", "http.server", "8000"]
